@@ -10,7 +10,7 @@ app = FastAPI(title="FM Similarity API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:4200"],
+    allow_origins=["https://fm-similitud-back.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
